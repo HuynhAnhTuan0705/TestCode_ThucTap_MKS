@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35919.96 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Testcode_ThucTap", "Testcode_ThucTap\Testcode_ThucTap.csproj", "{B28112DB-63F8-4379-80CC-DE5FE58F3511}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Challenge", "Challenge\Challenge.csproj", "{B078223C-226D-49FA-8ABA-6EF127BC269F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B28112DB-63F8-4379-80CC-DE5FE58F3511}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B28112DB-63F8-4379-80CC-DE5FE58F3511}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B28112DB-63F8-4379-80CC-DE5FE58F3511}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B28112DB-63F8-4379-80CC-DE5FE58F3511}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B078223C-226D-49FA-8ABA-6EF127BC269F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B078223C-226D-49FA-8ABA-6EF127BC269F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B078223C-226D-49FA-8ABA-6EF127BC269F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B078223C-226D-49FA-8ABA-6EF127BC269F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E3573C60-4458-438D-BB21-C2164F0584E9}
+	EndGlobalSection
+EndGlobal
