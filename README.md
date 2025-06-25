@@ -26,5 +26,5 @@
 3. Kiểm tra kết quả các test case
 
 ## Tác giả
-- Họ tên: [Tên của bạn]
-- Email: [Email của bạn]
+- Họ tên: [HuynhAnhTuan0705]
+- Email: [anhtuan.hcm0705@gmail.com]
