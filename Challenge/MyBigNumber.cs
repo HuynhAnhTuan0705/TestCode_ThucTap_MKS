@@ -24,9 +24,13 @@ namespace Challenge
 			int len = 0, remember = 0, index_num1 = stn1.Length - 1, index_num2 = stn2.Length - 1;
 
 			if (stn1.Length >= stn2.Length)
+			{
 				len = stn1.Length;
+			}
 			else
+			{
 				len = stn2.Length;
+			}
 
 			string result = "";
 			int digit_num1 = 0, digit_num2 = 0;
@@ -34,15 +38,23 @@ namespace Challenge
 			for (int i = 0; i <= len - 1; i++)
 			{
 				if (index_num1 >= 0)
+				{
 					digit_num1 = int.Parse(stn1[index_num1].ToString());
+				}
 				else
+				{
 					digit_num1 = 0;
+				}
 				index_num1--;
 
 				if (index_num2 >= 0)
+				{
 					digit_num2 = int.Parse(stn2[index_num2].ToString());
+				}
 				else
+				{ 
 					digit_num2 = 0;
+				}
 				index_num2--;
 
 				Trace.WriteLine($"[Step {i + 1}]");
@@ -50,7 +62,6 @@ namespace Challenge
 				Trace.WriteLine($"{digit_num1} + {digit_num2} + nhớ {remember} = {sum}");
 				result = (sum % 10).ToString() + result;
 				remember = sum / 10;
-
 			}
 			if (remember > 0)
 			{
@@ -62,6 +73,7 @@ namespace Challenge
 			Trace.WriteLine($"{stn1} + {stn2} = {result}");
 			Trace.WriteLine("==================================================");
 			Trace.Flush();
+
 			return result;
 		}
 	}
